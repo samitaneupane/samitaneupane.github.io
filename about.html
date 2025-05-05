@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Samita Neupane</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link href='https://fonts.googleapis.com/css?family=Lato:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/component.css">
+<script src="js/modernizr.custom.js"></script>
+<link rel="stylesheet" href="dist/css/lightbox.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+<script src="js/loader_htmls.js"></script>
+
+</head>
+
+<body>
+
+<!-- Import header -->
+<div id="header-placeholder"></div>
+
+<script>
+  fetch("header.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("header-placeholder").innerHTML = data;
+    });
+</script>
+<div class="container">
+  <div class="row content" style="margin-top:20px;">
+    <!--About image start -->
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 cl"> 
+      <div class="text-xs-center">
+          <img src="images/assests/profile.jpg" title="Samita Neupane" class="img-responsive profile-img" alt="Samita Neupane" style="opacity:0.8; border-radius: 50%; max-width: 90%; margin: 30px auto; text-align: center;">
+          <p style="text-align: center; font-style: italic; margin-top:10px; line-height: 1.2;">Be the change that you wish to see in the world.</p>
+          <p style="text-align: center; font-weight: bold;">Mahatma Gandhi</p>
+      </div>
+          <!-- Details Column -->
+          <hr style="margin-top: 20px;">
+
+       <h3 class="contactTitle text-xs-center" style="text-align:center;">Contact Details</h3>
+            <ul style="list-style-type: none; padding-left: 0;" class="list-unstyled contactDetails center">
+            <li style="text-align:center;">
+              <i class="fa fa-map-marker"></i> Vermilion, SD
+            </li>
+            <li style="text-align:center;">
+              <i class="fa fa-envelope-o"></i> neupanesamita2005@gmail.com
+            </li>
+        
+            <li style="text-align:center;">
+              <i class="fa fa-github"></i>
+              <a href="https://github.com/samitaneupane" target="_blank">GitHub</a>
+            </li>
+            <li style="text-align:center;">
+              <i class="fa fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/samitaneupane/" target="_blank">LinkedIn</a>
+            </li>
+          </ul>
+          </div>
+
+    <!--About image start -->
+    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 cr">
+      <!--About content start -->
+      <div class="clearfix" style="text-align: justify;">
+        <h3 class="text-xs-center">About Me:</h3>
+            <p> I am Samita Neupane and a graduate student pursuing my Master of Science in Computer Science at University of South Dakota, SD, USA, specializing in Artificial Intelligence, Machine Learning, and Data Science. I earned my Bachelor's degree in Computer Engineering from Tribhuwan University..
+            </p>
+
+            <p> With over six years of experience in the software engineering industry, I have honed my skills in a wide range of technologies including Python, PHP, C, C#, JavaScript, TensorFlow, Keras, Git, and Selenium. My background spans both development and automation, allowing me to work across the full software lifecycle.
+
+                My research interests center on applying AI and ML to real-world problems in healthcare and beyond. I have recently worked on projects involving neural signal decoding using EEG data and reinforcement learning for biomedical named entity recognition. I am particularly passionate about ethical AI and the use of intelligent systems to enhance healthcare solutions and optimize business operations such as sales. </p>
+
+            <p> Outside of tech, I love traveling, writing stories and articles, and expressing myself through dance. These passions fuel my creativity and inspire me to approach challenges with both logic and imagination.
+
+
+
+        
+        <!-- <a target = "_blank" href="https://docs.google.com/document/d/1kzsJX76S7btAakw6QVzx53zh80IN1QB7Mb876XVrrgs/edit#" class="dl">View My Resume</a></div> -->
+      <!--About content start -->
+    </div>
+  </div>
+</div>
+
+<!-- Import footer -->
+<div id="footer-placeholder"></div>
+<script>
+fetch("footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("footer-placeholder").innerHTML = data;
+      });
+  </script>
+
+<!--Javascriptfile start -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="dist/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
